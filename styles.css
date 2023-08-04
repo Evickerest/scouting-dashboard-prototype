@@ -1,0 +1,96 @@
+body {
+    background-color: chartreuse;
+}
+
+
+*,
+*::before,
+*::after { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.body-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.column {
+    background-color: greenyellow;
+}
+
+.team-searcher-wrapper {
+    text-align: center;
+}
+
+#team-searcher {
+    margin: 1rem;
+}
+
+.team-list {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+
+.team-number {
+    padding: 0;
+    margin: 2px;
+    width: auto;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color:white;
+    border-radius: 1rem;
+}
+
+.team-number:hover {
+    background-color: orange;
+}
+
+.active {
+    background-color: orange;
+   border-color: transparent;
+   box-shadow: 0 0 0 2px black;
+   z-index: 2;
+}
+
+.team-list-wrapper {
+    border: 1px solid black;
+
+}
+
+.team-info-wrapper {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container h1 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.flex-container h2 {
+    margin-bottom: 0;
+}
