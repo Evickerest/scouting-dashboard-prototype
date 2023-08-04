@@ -1,0 +1,2 @@
+# scouting-dashboard
+Scouting dashboard
